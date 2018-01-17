@@ -21,7 +21,7 @@ The general format for adding a repo is::
 
 As an example of adding the Ceph rpm-hammer repo for EL7::
 
-    ceph-deploy repo --repo-url http://mirrows.ustc.edu.cn/ceph/rpm-hammer/el7/x86_64/ --gpg-url 'http://mirrows.ustc.edu.cn/ceph/keys/release.asc' ceph HOST1
+    ceph-deploy repo --repo-url http://mirrors.ustc.edu.cn/ceph/rpm-hammer/el7/x86_64/ --gpg-url 'http://mirrors.ustc.edu.cn/ceph/keys/release.asc' ceph HOST1
 
 In this example, the repo-name is ``ceph``, and the file ``/etc/yum.repos.d/ceph.repo``
 will be created. Because ``--gpg-url`` was passed, the repo will have ``gpgcheck=1``
@@ -29,7 +29,7 @@ and will reference the given GPG key.
 
 For APT, the equivalent example would be::
 
-    ceph-deploy repo --repo-url http://mirrows.ustc.edu.cn/ceph/debian-hammer --gpg-url 'http://mirrows.ustc.edu.cn/ceph/keys/release.asc' ceph HOST1
+    ceph-deploy repo --repo-url http://mirrors.ustc.edu.cn/ceph/debian-hammer --gpg-url 'http://mirrors.ustc.edu.cn/ceph/keys/release.asc' ceph HOST1
 
 If a repo was defined in cephdeploy.conf, like the following::
 

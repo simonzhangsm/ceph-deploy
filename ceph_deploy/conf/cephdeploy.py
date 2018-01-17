@@ -32,28 +32,28 @@ cd_conf_template = """
 # yum repos:
 # [myrepo]
 # baseurl = http://gitbuilder.ceph.com/ceph-rpm-centos7-x86_64-basic/ref/hammer
-# gpgurl = http://mirrows.ustc.edu.cn/ceph/keys/autobuild.asc
+# gpgurl = http://mirrors.ustc.edu.cn/ceph/keys/autobuild.asc
 # default = True
 # extra-repos = cephrepo  # will install the cephrepo file too
 #
 # [cephrepo]
 # name=ceph repo noarch packages
-# baseurl=http://mirrows.ustc.edu.cn/ceph/rpm-hammer/el6/noarch
+# baseurl=http://mirrors.ustc.edu.cn/ceph/rpm-hammer/el6/noarch
 # enabled=1
 # gpgcheck=1
 # type=rpm-md
-# gpgkey=http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+# gpgkey=http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 
 # apt repos:
 # [myrepo]
 # baseurl = http://gitbuilder.ceph.com/ceph-deb-trusty-x86_64-basic/ref/hammer
-# gpgurl = http://mirrows.ustc.edu.cn/ceph/keys/autobuild.asc
+# gpgurl = http://mirrors.ustc.edu.cn/ceph/keys/autobuild.asc
 # default = True
 # extra-repos = cephrepo  # will install the cephrepo file too
 #
 # [cephrepo]
-# baseurl=http://mirrows.ustc.edu.cn/ceph/debian-hammer
-# gpgkey=http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+# baseurl=http://mirrors.ustc.edu.cn/ceph/debian-hammer
+# gpgkey=http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 """.format(gpgurl=gpg.url('release'))
 
 

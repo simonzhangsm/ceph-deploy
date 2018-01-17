@@ -36,7 +36,7 @@ def connect(args):
             distro.codename
         )
         LOG.info('assuming that a repository with Calamari packages is already configured.')
-        LOG.info('Refer to the docs for examples (http://mirrows.ustc.edu.cn/ceph/ceph-deploy/docs/conf.html)')
+        LOG.info('Refer to the docs for examples (http://mirrors.ustc.edu.cn/ceph/ceph-deploy/docs/conf.html)')
 
         rlogger = logging.getLogger(hostname)
 
@@ -83,7 +83,7 @@ def make(parser):
     """
     Install and configure Calamari nodes. Assumes that a repository with
     Calamari packages is already configured. Refer to the docs for examples
-    (http://mirrows.ustc.edu.cn/ceph/ceph-deploy/docs/conf.html)
+    (http://mirrors.ustc.edu.cn/ceph/ceph-deploy/docs/conf.html)
     """
     calamari_parser = parser.add_subparsers(dest='subcommand')
     calamari_parser.required = True

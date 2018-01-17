@@ -142,13 +142,13 @@ Changelog
 * Enable Ceph on ``osd create``
 * Remove bootstrap-rgw key when forgetkeys is used
 * Prefer systemd over upstart in newer Ubuntu
-* Use mirrows.ustc.edu.cn/ceph directly
+* Use mirrors.ustc.edu.cn/ceph directly
 * Use better examples in default cephdeploy.conf file
 * Cleanup functions for uninstall and purge (simplifying code)
 * Use https for download.cep.com
 * Fix gitbuilder hosts to avoid using https
 * Do not udevadm trigger because ceph-disk does it already
-* Download gpg keys from mirrows.ustc.edu.cn/ceph
+* Download gpg keys from mirrors.ustc.edu.cn/ceph
 * Specify a PID location for monitors
 * Fix invalid path for release keys in test
 * Add timestamp to log output

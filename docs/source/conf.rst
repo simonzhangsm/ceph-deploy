@@ -48,11 +48,11 @@ This is how a default configuration file would look like::
     #
     # [cephrepo]
     # name=ceph repo noarch packages
-    # baseurl=http://mirrows.ustc.edu.cn/ceph/rpm-emperor/el6/noarch
+    # baseurl=http://mirrors.ustc.edu.cn/ceph/rpm-emperor/el6/noarch
     # enabled=1
     # gpgcheck=1
     # type=rpm-md
-    # gpgkey=http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+    # gpgkey=http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 
     # apt repos:
     # [myrepo]
@@ -62,8 +62,8 @@ This is how a default configuration file would look like::
     # extra-repos = cephrepo  # will install the cephrepo file too
     #
     # [cephrepo]
-    # baseurl=http://mirrows.ustc.edu.cn/ceph/rpm-emperor/el6/noarch
-    # gpgkey=http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+    # baseurl=http://mirrors.ustc.edu.cn/ceph/rpm-emperor/el6/noarch
+    # gpgkey=http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 
 .. conf_sections:
 
@@ -161,11 +161,11 @@ configuration file demonstrates)::
 
     [cephrepo]
     name=ceph repo noarch packages
-    baseurl=http://mirrows.ustc.edu.cn/ceph/rpm-emperor/el6/noarch
+    baseurl=http://mirrors.ustc.edu.cn/ceph/rpm-emperor/el6/noarch
     enabled=1
     gpgcheck=1
     type=rpm-md
-    gpgkey=http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+    gpgkey=http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 
 In this case, the repository called ``myrepo`` defines the ``extra-repos`` key
 with just one extra one: ``cephrepo``.

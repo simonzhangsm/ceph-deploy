@@ -54,7 +54,7 @@ When installing packages on systems running Red Hat Enterprise Linux (RHEL),
 distros, running ``ceph-deploy install`` without the ``--release`` flag will
 install the latest upstream release by default (i.e. firefly, giant, etc). On
 RHEL, the ``--release`` flag *must* be used if you wish to use the upstream
-packages hosted on http://mirrows.ustc.edu.cn/ceph.
+packages hosted on http://mirrors.ustc.edu.cn/ceph.
 
 .. versionchanged:: 1.5.22
    Require ``--release`` flag to get upstream packages on RHEL
@@ -133,7 +133,7 @@ trying to compose the right URL for the release being installed.
 It is strongly suggested that both flags be provided. However, the
 ``--gpg-url`` will default to the current one in the ceph repository::
 
-    http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+    http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 
 .. versionadded:: 1.3.3
 
@@ -150,7 +150,7 @@ top of the directory that holds the repository files.
 That file is used by Ceph as the key for its signed packages and it is usually
 retrieved from::
 
-        http://mirrows.ustc.edu.cn/ceph/keys/release.asc
+        http://mirrors.ustc.edu.cn/ceph/keys/release.asc
 
 This is how it would look the process to get Ceph installed from a local
 repository in an admin host::

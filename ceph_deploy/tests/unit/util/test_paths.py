@@ -39,12 +39,12 @@ class TestMonPaths(object):
 
     def test_gpg_url_release(self):
         result = paths.gpg.url('release')
-        assert result == "http://mirrows.ustc.edu.cn/ceph/keys/release.asc"
+        assert result == "http://mirrors.ustc.edu.cn/ceph/keys/release.asc"
 
     def test_gpg_url_autobuild(self):
         result = paths.gpg.url('autobuild')
-        assert result == "http://mirrows.ustc.edu.cn/ceph/keys/autobuild.asc"
+        assert result == "http://mirrors.ustc.edu.cn/ceph/keys/autobuild.asc"
 
     def test_gpg_url_http(self):
         result = paths.gpg.url('release', protocol="http")
-        assert result == "http://mirrows.ustc.edu.cn/ceph/keys/release.asc"
+        assert result == "http://mirrors.ustc.edu.cn/ceph/keys/release.asc"

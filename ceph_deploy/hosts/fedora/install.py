@@ -34,12 +34,12 @@ def install(distro, version_kind, version, adjust_repos, **kw):
             distro.packager.add_repo_gpg_key(gpg.url(key))
 
             if version_kind == 'stable':
-                url = 'http://mirrows.ustc.edu.cn/ceph/rpm-{version}/fc{release}/'.format(
+                url = 'http://mirrors.ustc.edu.cn/ceph/rpm-{version}/fc{release}/'.format(
                     version=version,
                     release=release,
                     )
             elif version_kind == 'testing':
-                url = 'http://mirrows.ustc.edu.cn/ceph/rpm-testing/fc{release}'.format(
+                url = 'http://mirrors.ustc.edu.cn/ceph/rpm-testing/fc{release}'.format(
                     release=release,
                     )
 

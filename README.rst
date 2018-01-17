@@ -10,7 +10,7 @@ If you set up and tear down Ceph clusters a lot, and want minimal
 extra bureaucracy, this is for you.
 
 This ``README`` provides a brief overview of ceph-deploy, for thorough
-documentation please go to http://mirrows.ustc.edu.cn/ceph/ceph-deploy/docs
+documentation please go to http://mirrors.ustc.edu.cn/ceph/ceph-deploy/docs
 
 .. _what this tool is not:
 
@@ -58,12 +58,12 @@ repos.
 
 The DEB release repos are found at::
 
-     http://mirrows.ustc.edu.cn/ceph/debian-{release}
-     http://mirrows.ustc.edu.cn/ceph/debian-testing
+     http://mirrors.ustc.edu.cn/ceph/debian-{release}
+     http://mirrors.ustc.edu.cn/ceph/debian-testing
 
 This means, for example, that installing ``ceph-deploy`` from
-http://mirrows.ustc.edu.cn/ceph/debian-giant will install the same version as from
-http://mirrows.ustc.edu.cn/ceph/debian-firefly or http://mirrows.ustc.edu.cn/ceph/debian-testing.
+http://mirrors.ustc.edu.cn/ceph/debian-giant will install the same version as from
+http://mirrors.ustc.edu.cn/ceph/debian-firefly or http://mirrors.ustc.edu.cn/ceph/debian-testing.
 
 RPM
 ---
@@ -72,14 +72,14 @@ repos.
 
 The RPM release repos are found at::
 
-     http://mirrows.ustc.edu.cn/ceph/rpm-{release}
-     http://mirrows.ustc.edu.cn/ceph/rpm-testing
+     http://mirrors.ustc.edu.cn/ceph/rpm-{release}
+     http://mirrors.ustc.edu.cn/ceph/rpm-testing
 
 Make sure you add the proper one for your distribution (i.e. el7 vs rhel7).
 
 This means, for example, that installing ``ceph-deploy`` from
-http://mirrows.ustc.edu.cn/ceph/rpm-giant will install the same version as from
-http://mirrows.ustc.edu.cn/ceph/rpm-firefly or http://mirrows.ustc.edu.cn/ceph/rpm-testing.
+http://mirrors.ustc.edu.cn/ceph/rpm-giant will install the same version as from
+http://mirrors.ustc.edu.cn/ceph/rpm-firefly or http://mirrors.ustc.edu.cn/ceph/rpm-testing.
 
 bootstrapping
 -------------
@@ -359,7 +359,7 @@ Resources
 ---------
 Bug tracking: http://tracker.ceph.com/projects/ceph-deploy/issues
 
-Mailing list and IRC info is the same as ceph http://mirrows.ustc.edu.cn/ceph/resources/mailing-list-irc/
+Mailing list and IRC info is the same as ceph http://mirrors.ustc.edu.cn/ceph/resources/mailing-list-irc/
 
 Submitting Patches
 ------------------
