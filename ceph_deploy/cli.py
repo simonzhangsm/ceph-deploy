@@ -22,7 +22,7 @@ __header__ = textwrap.dedent("""
   | '|` |
     '|`
 
-Full documentation can be found at: http://ceph.com/ceph-deploy/docs
+Full documentation can be found at: http://mirrows.ustc.edu.cn/ceph/ceph-deploy/docs
 """ % ceph_deploy.__version__)
 
 

@@ -146,13 +146,13 @@ class TestParserInstall(object):
         assert args.repo_url is None
 
     def test_install_repo_url_custom_path(self):
-        args = self.parser.parse_args('install --repo-url https://ceph.com host1'.split())
-        assert args.repo_url == "https://ceph.com"
+        args = self.parser.parse_args('install --repo-url http://mirrows.ustc.edu.cn/ceph host1'.split())
+        assert args.repo_url == "http://mirrows.ustc.edu.cn/ceph"
 
     def test_install_gpg_url_default_is_none(self):
         args = self.parser.parse_args('install host1'.split())
         assert args.gpg_url is None
 
     def test_install_gpg_url_custom_path(self):
-        args = self.parser.parse_args('install --gpg-url https://ceph.com/key host1'.split())
-        assert args.gpg_url == "https://ceph.com/key"
+        args = self.parser.parse_args('install --gpg-url http://mirrows.ustc.edu.cn/ceph/key host1'.split())
+        assert args.gpg_url == "http://mirrows.ustc.edu.cn/ceph/key"

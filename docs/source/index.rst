@@ -51,12 +51,12 @@ repos.
 
 The DEB release repos are found at::
 
-     http://ceph.com/debian-{release}
-     http://ceph.com/debian-testing
+     http://mirrows.ustc.edu.cn/ceph/debian-{release}
+     http://mirrows.ustc.edu.cn/ceph/debian-testing
 
 This means, for example, that installing ``ceph-deploy`` from
-http://ceph.com/debian-giant will install the same version as from
-http://ceph.com/debian-firefly or http://ceph.com/debian-testing.
+http://mirrows.ustc.edu.cn/ceph/debian-giant will install the same version as from
+http://mirrows.ustc.edu.cn/ceph/debian-firefly or http://mirrows.ustc.edu.cn/ceph/debian-testing.
 
 RPM
 ---
@@ -65,14 +65,14 @@ repos.
 
 The RPM release repos are found at::
 
-     http://ceph.com/rpm-{release}
-     http://ceph.com/rpm-testing
+     http://mirrows.ustc.edu.cn/ceph/rpm-{release}
+     http://mirrows.ustc.edu.cn/ceph/rpm-testing
 
 Make sure you add the proper one for your distribution (i.e. el7 vs rhel7).
 
 This means, for example, that installing ``ceph-deploy`` from
-http://ceph.com/rpm-giant will install the same version as from
-http://ceph.com/rpm-firefly or http://ceph.com/rpm-testing.
+http://mirrows.ustc.edu.cn/ceph/rpm-giant will install the same version as from
+http://mirrows.ustc.edu.cn/ceph/rpm-firefly or http://mirrows.ustc.edu.cn/ceph/rpm-testing.
 
 bootstrapping
 -------------

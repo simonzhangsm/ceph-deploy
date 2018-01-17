@@ -71,12 +71,12 @@ def install(distro, version_kind, version, adjust_repos, **kw):
             distro.packager.add_repo_gpg_key(gpg.url(key))
 
             if version_kind == 'stable':
-                url = 'https://download.ceph.com/rpm-{version}/{repo}/'.format(
+                url = 'http://mirrows.ustc.edu.cn/ceph/rpm-{version}/{repo}/'.format(
                     version=version,
                     repo=repo_part,
                     )
             elif version_kind == 'testing':
-                url = 'https://download.ceph.com/rpm-testing/{repo}/'.format(repo=repo_part)
+                url = 'http://mirrows.ustc.edu.cn/ceph/rpm-testing/{repo}/'.format(repo=repo_part)
 
             # remove any old ceph-release package from prevoius release
             remoto.process.run(

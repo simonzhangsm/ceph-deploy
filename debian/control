@@ -6,7 +6,7 @@ Priority: optional
 Build-Depends: debhelper (>= 7), python-setuptools, git
 X-Python-Version: >= 2.6
 Standards-Version: 3.9.2
-Homepage: http://ceph.com/
+Homepage: http://mirrows.ustc.edu.cn/ceph/
 Vcs-Git: git://github.com/ceph/ceph-deploy.git
 Vcs-Browser: https://github.com/ceph/ceph-deploy
 

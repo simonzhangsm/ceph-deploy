@@ -59,13 +59,13 @@ class TestParserRepo(object):
         assert args.repo_url is None
 
     def test_repo_url_custom_path(self):
-        args = self.parser.parse_args('repo ceph --repo-url https://ceph.com host1'.split())
-        assert args.repo_url == "https://ceph.com"
+        args = self.parser.parse_args('repo ceph --repo-url http://mirrows.ustc.edu.cn/ceph host1'.split())
+        assert args.repo_url == "http://mirrows.ustc.edu.cn/ceph"
 
     def test_repo_gpg_url_default_is_none(self):
         args = self.parser.parse_args('repo ceph host1'.split())
         assert args.gpg_url is None
 
     def test_repo_gpg_url_custom_path(self):
-        args = self.parser.parse_args('repo ceph --gpg-url https://ceph.com/key host1'.split())
-        assert args.gpg_url == "https://ceph.com/key"
+        args = self.parser.parse_args('repo ceph --gpg-url http://mirrows.ustc.edu.cn/ceph/key host1'.split())
+        assert args.gpg_url == "http://mirrows.ustc.edu.cn/ceph/key"

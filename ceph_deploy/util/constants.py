@@ -32,4 +32,4 @@ default_components = namedtuple('DefaultComponents', ['rpm', 'deb'])
 default_components.rpm = tuple(_base_components + ['ceph-radosgw'])
 default_components.deb = tuple(_base_components + ['radosgw'])
 
-gpg_key_base_url = "download.ceph.com/keys/"
+gpg_key_base_url = "mirrows.ustc.edu.cn/ceph/keys/"

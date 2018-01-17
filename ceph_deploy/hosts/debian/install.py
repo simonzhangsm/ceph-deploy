@@ -24,7 +24,7 @@ def install(distro, version_kind, version, adjust_repos, **kw):
     distro.packager.install(['ca-certificates', 'apt-transport-https'])
 
     if adjust_repos:
-        # Wheezy does not like the download.ceph.com SSL cert
+        # Wheezy does not like the mirrows.ustc.edu.cn/ceph SSL cert
         protocol = 'https'
         if codename == 'wheezy':
             protocol = 'http'
@@ -48,12 +48,12 @@ def install(distro, version_kind, version, adjust_repos, **kw):
         else:
             distro.packager.add_repo_gpg_key(gpg.url(key, protocol=protocol))
             if version_kind == 'stable':
-                url = '{protocol}://download.ceph.com/debian-{version}/'.format(
+                url = '{protocol}://mirrows.ustc.edu.cn/ceph/debian-{version}/'.format(
                     protocol=protocol,
                     version=version,
                     )
             elif version_kind == 'testing':
-                url = '{protocol}://download.ceph.com/debian-testing/'.format(
+                url = '{protocol}://mirrows.ustc.edu.cn/ceph/debian-testing/'.format(
                     protocol=protocol,
                     )
             else:

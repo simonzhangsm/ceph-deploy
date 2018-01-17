@@ -16,7 +16,7 @@ Release:        0
 Summary:        Admin and deploy tool for Ceph
 License:        MIT
 Group:          System/Filesystems
-URL:            http://ceph.com/
+URL:            http://mirrows.ustc.edu.cn/ceph/
 Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  python-devel
